@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+
+  --font-family-sans-serif: "Inter", sans-serif;
+  --font-family-serif: "Cabin", serif;
+}
+body {
+  font-family: var(--font-family-sans-serif);
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  line-height: 1.6;
+}
